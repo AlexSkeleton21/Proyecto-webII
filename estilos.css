@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("imagenes/fondo.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1rem;
+    text-align: center;
+}
+.contenedor{
+    width: 980px;
+    margin: 0 auto;
+
+    display: grid;
+    
+
+}
+.contenedor > *{
+    background-color: aquamarine;
+}
+.cabecera{
+    border-radius: 20px;
+    grid-area: headerArea;   
+    background-color: chocolate;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.ajonjoli{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenido{
+    grid-area: mainArea;
+    background-color: burlywood;
+}
+.navbar{
+    border-radius: 20px;
+    background-color: sienna;
+}
+.interfaz{
+
+    background-color: crimson;
+}
+.info{
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+}
+.derechos{
+
+    background-color: brown;
+}
+.subtitulos1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    background-color:darkorchid;
+    color: rgb(203, 126, 241);
+}
+.subtitulos2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    background-color:greenyellow;
+    color: green;
+}
+.subtitulos3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.info{
+    border-radius: 20px;
+    background-color:  sienna;
+    color: rgb(236, 178, 152);
+}
+.combo{
+    background-color: coral;
+    border-radius: 20px;
+}
+.precio{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+footer{
+    border-radius: 20px;
+    background-color: chocolate;
+}
+
